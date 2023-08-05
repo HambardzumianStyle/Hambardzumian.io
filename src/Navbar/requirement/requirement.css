@@ -1,0 +1,24 @@
+.main-container-div{
+    margin-top: 50px;
+    display: flex;
+}
+.Img1-Container{
+    width: 350px;
+    height: 327px;
+    border: 1px solid rgba(246,246,246);
+    background-color: rgba(246,246,246);
+    border-radius: 10px;
+    margin:2mm;
+    
+}
+.Img-1{
+    border-radius: 30px;
+    width: 310px;
+    height: 200px;
+    padding: 19px;
+    margin:-50px 0 0 0px;
+   
+}
+.Img-1-text-container{
+    margin-left: 20px;
+}

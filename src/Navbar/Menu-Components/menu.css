@@ -1,0 +1,89 @@
+
+.MainDiv{
+    padding-left: 13px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    height: 63px;
+    background-color: rgba(0, 0, 0, 0.061);
+    
+}
+.MainDiv2{
+    padding-left: 13px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    height: 63px;
+    background-color:white;
+    position: fixed;
+    opacity: 1;
+    border: 1px solid gray;
+}
+.menu-text{
+height: 2px;
+
+}
+p{
+    height: 8px;
+}
+.Input-Icons-Container{
+    margin-top: 17px;
+    margin-left: 720px;
+}
+input{
+    border-radius: 6px;
+    height: 35px;
+    color: rgb(117, 113, 113);
+    background-color: rgba(105, 105, 105, 0.053);
+    border: 1px solid rgb(117, 113, 113) ;
+}
+.Links{
+    text-decoration: none;
+    color:rgb(117, 113, 113);
+}
+.Links-icon{
+    text-decoration: none;
+    color: rgb(117, 113, 113);
+    font-size: 18px;
+    margin: 5px;
+    
+}
+.menu-text1{
+    color: rgb(117, 113, 113);
+}
+.menu-text1{
+    color: rgb(117, 113, 113);
+    font-size: 1rem;
+    /* color:#344767; */
+}
+.menu-text2{
+    font-weight: bold;
+}
+
+.side-popup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 23.7%;
+    background-color: #ffffff;
+    z-index: 1020;
+    height: 100vh;
+ 
+  }
+  .side-popup-content {
+    padding: 20px;
+    margin-top: -50px;
+  }
+  
+  .side-popup-content > div {
+    margin-bottom: 10px;
+  }
+  .side-popup.show {
+    transform: translateX(0);
+  }
+ .close-popup{
+    transform: translateX(300px);
+    transform: translateY(60px);
+    margin-left:300px ;
+    color: red;
+ }

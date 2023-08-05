@@ -1,0 +1,283 @@
+.item:hover{
+    background-color: rgba(212, 202, 202, 0.095);
+}
+
+
+.items{
+    transform: translateX(20px);
+    
+}
+
+.alice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    
+}
+.item{
+    width: 100%;
+    transition: 1s;
+}
+.icon{
+     font-size: 15px;
+     transform: translateY(30px);
+     transform: translateX(20px);
+   
+}
+.icon1{
+    font-size: 25px;
+    transform: translateY(8px);
+   
+  
+}
+.main-titls{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  color: white;
+  font-size: 17px;
+  width: auto;
+ 
+}
+.main-titls .items{
+    min-height: 30px;
+    width: auto;
+    text-align: center;
+}
+
+
+
+.el-title{ 
+    margin-left: 3px;
+}
+.dashboard2-main{
+    background-color: #2f2f33;
+    width: 250px;
+    height: 700px;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.alice-div{
+    margin-top: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding-right: 10px;
+  transition: 1s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.alice-div .cheveron-down{
+    font-size: 25px;
+    transform: translateY(5px);
+}
+.dashboard .cheveron-down{
+    font-size: 25px;
+    transform: translateY(5px);
+}
+.alice-div2{ 
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: auto;
+}
+.alice-p{
+color: white;
+cursor: pointer;
+
+}
+.ent-p {
+   color: white;
+   transform: translateX(0px);
+   
+}
+
+
+.dashboard-p {
+ color: white;
+cursor: pointer;
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column; 
+    transition: 1s;
+}
+.img1{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    
+}
+.logo-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.name{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+}
+/* .entamenu-none{
+    height: 0;
+    transition: 1s;
+} */
+.entamenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 15px;
+    line-height: 2px;
+    transition: 1s;
+   display: none;
+    width: 100%;
+}
+.gic{
+    color: rgba(255, 255, 255, 0.018);
+    width: 90%;
+    opacity: 0.3;
+}
+.d-pages{
+    color: white;
+    transform: translateX(-70px);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.toogle-btn{
+    cursor: pointer;
+    transition: .3s;
+}
+.alice-div.open  .toogle-btn {
+    transform: rotate(180deg);
+}
+.alice-div.open .entamenu{
+    display: flex;
+}
+.dashboard.open .entamenu {
+    display: flex;
+}
+.dashboard.open .toogle-btn {
+    transform: rotate(180deg);
+}
+.sidebar-opened.open  .toogle-btn {
+    transform: rotate(180deg);
+}
+.entamenu2.opend .toogle-btn {
+    transform: rotate(180deg);
+} 
+/* .entamenu2 .toogle-btn {
+    transform: rotate(100deg);
+}  */
+/* .sidebar-opened.open .entamenu2.opend .entamenu2{
+    display: flex;
+} */
+.sidebar-opened.open .entamenu2non{
+    display: none;
+}
+
+/* .sidebar-opened1.open .entamenu{
+    display: flex;
+    
+} */
+.title{
+    color: white;
+}
+.sidebar-opened.open .entamenu2
+ {
+    display: flex;
+}
+/* .sidebar-opened1 .open
+.sidebar-opend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-right: 10px;
+    transition: 1s;
+    
+} */
+.sidebar-opend .main-titls{
+    width: 100%;
+}
+
+.sidebar{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    
+}
+.entamenu.opench .entamenu2{
+display: flex;
+} 
+.entamenu.opench .toogle-btn{
+    transform: rotate(180deg);
+}
+
+.sidebar-opened1 .entamenu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 15px;
+    line-height: 10px;
+    transition: 1s;
+    display: none;
+   
+   margin-top: 10px; 
+}
+.entamenu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 15px;
+    line-height: 10px;
+    transition: 1s;
+    display: none;
+   
+   margin-top: 10px;
+   transform: translateX(5px);
+   
+}
+
+.child-div .title {
+    transform: translateX(-10px);
+}
+.entamenu2{
+width: 100%;
+
+}
+.entamenu-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column ;
+    margin-top:2px;
+    height: 100px
+}
+.arr1{
+    width: 100%;
+}
